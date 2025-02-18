@@ -1,0 +1,8 @@
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\AlmacenadorAlertasGravesApplication.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\config\KafkaConsumerConfig.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\config\KafkaProducerConfig.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\kafka\AlertaInfantilListener.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\model\AlertaInfantil.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\model\AlertaInfantilEntity.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\service\AlertaRepository.java
+C:\Users\Pablo\Documents\DUOC UC\almacenador_alertas_graves\src\main\java\com\alertasinfantiles\almacenador_alertas_graves\service\AlertaService.java
