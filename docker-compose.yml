@@ -4,7 +4,7 @@ services:
     build: .
     container_name: almacenador_alertas_graves
     ports:
-      - "9082:8080"
+      - "9083:8080"
     environment:
       SPRING_DATASOURCE_URL: jdbc:oracle:thin:@backduoccloud_high?TNS_ADMIN=/app/wallet
       SPRING_DATASOURCE_USERNAME: ADMIN

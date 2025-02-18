@@ -1,14 +1,18 @@
 server:
-  port: 8082
+  port: 8083
 
 spring:
   kafka:
     bootstrap-servers: kafka-1:9092,kafka-2:9093,kafka-3:9094
 
-    #consumer:
-      #Agregar datos
-    #properties:
-      #Agregar datos
+    consumer:
+      group-id: grupo-analizador
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+    properties:
+      spring.json.trusted.packages: "*"
 
   datasource:
     url: jdbc:oracle:thin:@backduoccloud_high?TNS_ADMIN=/app/wallet
